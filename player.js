@@ -2,12 +2,12 @@ document.addEventListener('DOMContentLoaded', function () {
     // Define the playlist
     let playlist = [
         "audio//the-spirit-of-god.mp3",
-        "audio/nearer-my-god-to-thee.mp3",
-        "audio/i-need-thee.mp3",
-        "audio/come-come-ye-saints.mp3",
-        "audio/did-you-think-to-pray.mp3",
-        "audio/abide-with-me.mp3",
-        "audio/god-be-with-you.mp3"
+        "audio//nearer-my-god-to-thee.mp3",
+        "audio//i-need-thee.mp3",
+        "audio//come-come-ye-saints.mp3",
+        "audio//did-you-think-to-pray.mp3",
+        "audio//abide-with-me.mp3",
+        "audio//god-be-with-you.mp3"
     ];
 
     // Shuffle the playlist using Fisher-Yates algorithm
