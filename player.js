@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Define the playlist
     let playlist = [
-        "audio/the-spirit-of-god.mp3",
+        "audio//the-spirit-of-god.mp3",
         "audio/nearer-my-god-to-thee.mp3",
         "audio/i-need-thee.mp3",
         "audio/come-come-ye-saints.mp3",
