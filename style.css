@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #001f3f;
+    color: gold;
+}
+
+header {
+    background-color: #002b5e;
+    text-align: center;
+    padding: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+section {
+    padding: 2rem;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.about-content img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.music-player, .podcast, .contact, .about {
+    background-color: #003366;
+    border-radius: 12px;
+    margin: 2rem;
+    padding: 1.5rem;
+}
+
+.player-center {
+    text-align: center;
+}
+
+/* Updated player buttons with elegant styling */
+.controls {
+    margin-top: 1rem;
+}
+
+.controls button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: gold;
+    color: #001f3f;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.controls button:hover {
+    background-color: #ffdd00;
+    transform: scale(1.05);
+}
+
+.controls input[type="range"] {
+    vertical-align: middle;
+    margin-top: 1rem;
+    width: 200px;
+}
+
+.episode {
+    margin-top: 1rem;
+    background-color: #002244;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.episode img {
+    width: 120px;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #000d1a;
+    font-size: 0.9rem;
+}
+
+/* New: Center section headings */
+.centered-heading {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+/* New: Center About section content */
+.centered-about {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.centered-about p {
+    max-width: 700px;
+}

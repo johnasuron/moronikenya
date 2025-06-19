@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Moroni Online Radio Kenya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Moroni Online Radio Kenya</h1>
+        <p>Streaming Gospel Music & Uplifting Podcasts 24/7</p>
+    </header>
+
+    <section class="about">
+        <h2 class="centered-heading">About Moroni Radio Kenya</h2>
+        <div class="about-content centered-about">
+            <img src="moroniradiopic.png" alt="About Zion Radio">
+            <p>
+                Moroni Online Radio Kenya is your home for pure, uplifting gospel music and inspiring podcasts.
+                Join us as we glorify God and spread the good news through sound and spirit-led teachings.
+            </p>
+        </div>
+    </section>
+
+    <section class="music-player">
+        <h2 class="centered-heading">Gospel Music Now Playing</h2>
+        <div class="player-center">
+            <audio id="audio-player" autoplay></audio>
+            <div class="controls elegant-controls">
+                <button onclick="playMusic()">Play</button>
+                <button onclick="pauseMusic()">Pause</button>
+                <button onclick="stopMusic()">Stop</button>
+                <input type="range" min="0" max="1" step="0.01" onchange="setVolume(this.value)">
+            </div>
+        </div>
+    </section>
+
+    <section class="podcast">
+        <h2>Inspiring Podcast Episodes</h2>
+
+        <div class="episode">
+            <img src="preskogo.jpg" alt="Episode 1">
+            <h3>Episode 1: President Kogo’s Inspiring Journey of Faith | Now Is The Time</h3>
+            <audio controls>
+                <source src="audio/prs-kogo.mp3" type="audio/mp3">
+            </audio>
+        </div>
+
+        <div class="episode">
+            <img src="episode2.jpg" alt="Episode 2">
+            <h3>Episode 2: Living with Purpose</h3>
+            <audio controls>
+                <source src="audio/podcast2.mp3" type="audio/mp3">
+            </audio>
+        </div>
+
+        <div class="episode">
+            <img src="episode3.jpg" alt="Episode 3">
+            <h3>Episode 3: Spirit-Led Living</h3>
+            <audio controls>
+                <source src="audio/podcast3.mp3" type="audio/mp3">
+            </audio>
+        </div>
+
+        <div class="episode">
+            <img src="episode4.jpg" alt="Episode 4">
+            <h3>Episode 4: Worship and Truth</h3>
+            <audio controls>
+                <source src="audio/podcast4.mp3" type="audio/mp3">
+            </audio>
+        </div>
+
+        <div class="episode">
+            <img src="episode5.jpg" alt="Episode 5">
+            <h3>Episode 5: Power of Prayer</h3>
+            <audio controls>
+                <source src="audio/podcast5.mp3" type="audio/mp3">
+            </audio>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@moroniradiokenya.org</p>
+        <p>Phone: +254-712-345-678</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Moroni Online Radio Kenya. All rights reserved.</p>
+    </footer>
+
+    <script src="player.js"></script>
+</body>
+</html>
